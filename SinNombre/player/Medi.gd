@@ -83,5 +83,5 @@ func next_to_right_wall():
 
 
 func take_damage():
-	get_tree().change_scene("res://mapa.tscn")
+	get_tree().change_scene("res://niveles/mapa.tscn")
 

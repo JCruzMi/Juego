@@ -23,16 +23,16 @@ __meta__ = {
 
 [node name="btn" parent="GridContainer" instance=ExtResource( 1 )]
 level_int = 1
-level_proyec_dir = "res://mapa.tscn"
+level_proyec_dir = "res://niveles/mapa.tscn"
 
 [node name="btn2" parent="GridContainer" instance=ExtResource( 1 )]
 margin_left = 84.0
 margin_right = 148.0
 level_int = 2
-level_proyec_dir = "res://level2.tscn"
+level_proyec_dir = "res://niveles/level2.tscn"
 
 [node name="btn3" parent="GridContainer" instance=ExtResource( 1 )]
 margin_left = 168.0
 margin_right = 232.0
 level_int = 3
-level_proyec_dir = "res://level3.tscn"
+level_proyec_dir = "res://niveles/level3.tscn"

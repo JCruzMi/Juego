@@ -21,7 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="SinNombre"
-run/main_scene="res://mapa.tscn"
+run/main_scene="res://niveles/mapa.tscn"
 config/icon="res://icon.png"
 
 [autoload]

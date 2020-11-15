@@ -1,38 +1,41 @@
 [gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://player/Medi.tscn" type="PackedScene" id=1]
-[ext_resource path="res://spikes.tscn" type="PackedScene" id=2]
-[ext_resource path="res://mapa.gd" type="Script" id=3]
+[ext_resource path="res://damege/spikes.tscn" type="PackedScene" id=2]
+[ext_resource path="res://niveles/mapa.gd" type="Script" id=3]
+
+
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 517.824, 10.5 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 55.824, 36.5 )
+extents = Vector2( 18.4137, 212.557 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 143.824, 99.5 )
+extents = Vector2( 20.0992, 110.037 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 195.824, 33.5 )
+extents = Vector2( 136.398, 19.6252 )
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 43.8239, 99.5 )
+extents = Vector2( 501.638, 22.5957 )
 
 [sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 197.824, 29.5 )
+extents = Vector2( 16.9031, 219.625 )
 
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 9.82391, 337.5 )
 
 [sub_resource type="RectangleShape2D" id=8]
-extents = Vector2( 75.824, 337.5 )
+extents = Vector2( 22.7063, 337.5 )
 
 [node name="mapa" type="Node2D"]
 script = ExtResource( 3 )
+level_int = 2
 
 [node name="Medi" parent="." instance=ExtResource( 1 )]
-position = Vector2( 295, 541 )
+position = Vector2( 26.2994, 552.314 )
 
 [node name="ground" type="StaticBody2D" parent="."]
 position = Vector2( 516, 591 )
@@ -47,7 +50,7 @@ __meta__ = {
 }
 
 [node name="ground2" type="StaticBody2D" parent="."]
-position = Vector2( 44, 557 )
+position = Vector2( 250.475, 158.192 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -59,7 +62,7 @@ __meta__ = {
 }
 
 [node name="ground6" type="StaticBody2D" parent="."]
-position = Vector2( 608, 347 )
+position = Vector2( 752.25, 315.887 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -71,7 +74,7 @@ __meta__ = {
 }
 
 [node name="ground8" type="StaticBody2D" parent="."]
-position = Vector2( 800, 19 )
+position = Vector2( 610.495, 81.2254 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -83,7 +86,7 @@ __meta__ = {
 }
 
 [node name="ground7" type="StaticBody2D" parent="."]
-position = Vector2( 200, 5 )
+position = Vector2( 485.671, -74.196 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -95,7 +98,7 @@ __meta__ = {
 }
 
 [node name="ground3" type="StaticBody2D" parent="."]
-position = Vector2( 532, 219 )
+position = Vector2( 433.005, 281.225 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -119,7 +122,7 @@ __meta__ = {
 }
 
 [node name="ground5" type="StaticBody2D" parent="."]
-position = Vector2( 1024, 263 )
+position = Vector2( 1038.14, 257.343 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -133,19 +136,19 @@ __meta__ = {
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="spikes" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 576.313, 588.012 )
+position = Vector2( 437.72, 559.728 )
 
 [node name="spikes2" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 638.538, 586.598 )
+position = Vector2( 248.215, 408.407 )
 
 [node name="spikes3" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 917.139, 582.355 )
+position = Vector2( 956.737, 353.252 )
 
 [node name="spikes4" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 737.533, 448.005 )
+position = Vector2( 403.779, 233.045 )
 
 [node name="spikes5" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 955.322, 363.152 )
+position = Vector2( 856.327, 354.667 )
 
 [node name="spikes6" parent="Node2D" instance=ExtResource( 2 )]
-position = Vector2( 757.332, 225.973 )
+position = Vector2( 451.862, 98.6938 )
