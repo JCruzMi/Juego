@@ -3,7 +3,7 @@ extends Node
 var current_level: int = 1 setget current_level_changed
 
 var data_game = {
-	'current_level:' : current_level
+	'current_level' : current_level
 }
 
 func _ready():
