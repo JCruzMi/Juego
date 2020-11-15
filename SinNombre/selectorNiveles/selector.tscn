@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://selectorNiveles/btn.tscn" type="PackedScene" id=1]
+
+[node name="selector" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 1.41422
+margin_bottom = 1.41418
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+custom_constants/vseparation = 15
+custom_constants/hseparation = 20
+columns = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn" parent="GridContainer" instance=ExtResource( 1 )]
+level_int = 1
+level_proyec_dir = "res://mapa.tscn"
+
+[node name="btn2" parent="GridContainer" instance=ExtResource( 1 )]
+margin_left = 84.0
+margin_right = 148.0
+level_int = 2
+level_proyec_dir = "res://level2.tscn"
+
+[node name="btn3" parent="GridContainer" instance=ExtResource( 1 )]
+margin_left = 168.0
+margin_right = 232.0
+level_int = 3
+level_proyec_dir = "res://level3.tscn"

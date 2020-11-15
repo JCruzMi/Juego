@@ -8,15 +8,25 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "Medi",
+"language": "GDScript",
+"path": "res://player/Medi.gd"
+} ]
 _global_script_class_icons={
-
+"Medi": ""
 }
 
 [application]
 
 config/name="SinNombre"
+run/main_scene="res://mapa.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Globals="*res://globals.gd"
 
 [rendering]
 
